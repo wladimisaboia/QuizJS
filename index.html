@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="welcome-container">
+        <h2>Seja bem-vindo(a) ao Quiz sobre JavaScript </h2>
+        <button id="start-button" onclick="startQuiz()">Iniciar</button>
+    </div>
+
+    <div class="container" id="quiz-container" style="display: none;">
+        <h2>Quiz de JavaScript</h2>
+        <div id="question-container"></div>
+        <button id="next-button" onclick="nextQuestion()">Próximo</button>
+        <button id="finish-button" onclick="finishQuiz()" style="display: none;">Finalizar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
